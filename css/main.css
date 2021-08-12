@@ -344,6 +344,21 @@ ul {
 }
 
 /*================================
+            page-title
+  ================================
+*/
+.page-title h1 {
+  text-transform: uppercase;
+  background-color: var(--grey-300);
+  text-align: center;
+  color: var(--grey-500);
+  margin-top: 1.5rem;
+  margin-bottom: 3rem;
+  font-size: 2.5rem;
+  text-decoration: underline 5px var(--primary-400);
+}
+
+/*================================
 hero page
   ================================
 */
@@ -354,7 +369,7 @@ hero page
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto 1fr auto;
-  width: 20rem;
+  width: 22rem;
   margin: 1rem auto;
   border-radius: 0.52rem;
 }
@@ -417,8 +432,18 @@ hero page
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
-@media screen and (min-width: 1370px) {
+@media screen and (min-width: 1500px) {
   .title {
     grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+@media screen and (min-width: 1750px) {
+  .title {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+}
+@media screen and (min-width: 2250px) {
+  .title {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   }
 }
